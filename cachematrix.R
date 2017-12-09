@@ -14,6 +14,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## 1. This function starts with an input x and then retrives the matrix that the user defined. If that matrix was not defined, or is null, the function returns an error
+## 2. If the function is not null, the data function will retrieve the matrix and calculate its inverse using the solve function. It then returns that value to the parent environment.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
